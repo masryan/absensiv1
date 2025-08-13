@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+}
+
+.attendance-card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.camera-preview {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    border: 1px solid #ddd;
+    margin: 10px auto;
+}
+
+.asset-card {
+    transition: transform 0.2s;
+}
+
+.asset-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.status-badge {
+    font-size: 0.9em;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.dashboard-stats {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.chart-container {
+    height: 300px;
+    margin: 20px 0;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+.btn-action {
+    margin: 0 2px;
+}
